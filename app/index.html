@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeLedger — Household Budget</title>
+<meta name="description" content="HomeLedger is a household budget site: track income and spending, set category budgets, manage bills and savings goals — all in the browser, no account needed.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/"><span class="brand-mark">⌂</span> HomeLedger</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/">Dashboard</a>
+      <a href="#/transactions">Transactions</a>
+      <a href="#/budgets">Budgets</a>
+      <a href="#/bills">Bills</a>
+      <a href="#/goals">Goals</a>
+      <a href="#/reports">Reports</a>
+    </nav>
+    <label class="month-picker">Month
+      <select id="month-select" aria-label="Month">
+        <option value="2026-11">November 2026</option>
+        <option value="2026-10">October 2026</option>
+      </select>
+    </label>
+  </div>
+</header>
+<main class="wrap">
+  <div class="intro">
+    <h1>Your household budget, at a glance</h1>
+    <p>Track every dollar in and out, keep each category on plan, never miss a bill, and watch your savings goals grow. Your data stays in this browser — no account, no cloud, no ads.</p>
+  </div>
+  <div id="page"><!-- rendered by app.js --></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>HomeLedger — a household budget site. Demo data for the Alvarez household (2 adults, 2 kids). <button class="link-btn" data-action="reset-data">Reset demo data</button></p>
+    <p class="fine">All figures are computed live from your transactions. Nothing leaves your browser.</p>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
