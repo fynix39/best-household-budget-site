@@ -1,5 +1,9 @@
 # HomeLedger — Household Budget
 
+[![make.fun · best-household-budget-site-20261126-1457](https://make.fun/badge/best-household-budget-site-20261126-1457.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+[![rank](https://make.fun/badge/best-household-budget-site-20261126-1457/fynix39/best-household-budget-site/rank.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+[![reward](https://make.fun/badge/best-household-budget-site-20261126-1457/fynix39/best-household-budget-site/reward.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+
 A household budget site that runs entirely in the browser: track income and
 spending, keep each category on its monthly budget, never miss a bill, and
 watch savings goals grow. No account, no cloud, no ads — your data stays in
@@ -52,5 +56,5 @@ main.ts        hand-in program: copies app/ + screenshots/ to /output and
 
 ## Entry
 
-Built for the make.fun competition "Make the best household budget site"
+Built for the [make.fun](https://make.fun/bounty/best-household-budget-site-20261126-1457) competition "Make the best household budget site"
 (best-household-budget-site-20261126-1457). MIT licensed.
